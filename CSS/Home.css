@@ -1,0 +1,37 @@
+.text{
+    border: 2px solid red;
+    width: 30%;
+    float: left;/*  place to next eack other*/
+    margin: 14px;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: inset 5px 5px 5px 5px red;/*  for shadow parpose we can use box shadow outside shadow.
+    we can use inset shadow its will come inside a box*/
+border-radius: 10px;/* corve we can use border radious*/
+text-shadow: 1px 1px 1px lightblue;/*    text shadow we can use 3 parameters only ...
+if u use 4 its not work*/
+/*text-indent: -8888px;*/
+}/* normal perpose*/
+.text:hover{
+    background: lightpink;
+}
+.text a{
+    /*text-decoration: none;*/
+    /* we are hiding the underline*/
+   /* text-decoration: overline;*/
+   text-decoration: underline;
+}
+.text1{
+    background: skyblue; 
+    /*display: none;*/
+   /* visibility: hidden;*/
+}
+.text1:hover p{
+    display: none;
+}
+.text2{
+    background: lightsalmon;
+}
+.text3{
+    background: lightgreen;
+}

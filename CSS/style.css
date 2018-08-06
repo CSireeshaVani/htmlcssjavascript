@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding:0;
+}
+#header_block_parent{
+    background: #2874f0;
+    
+}
+#header_block{
+    background: #2874f0;
+    height: 41px;
+        width:80%;
+        margin: 0 auto;
+}
+#logo img {
+    width: 110px;
+}
+/* img{
+    width:100px
+}*/
+
+#logo{
+    width: 15%;
+    float: left;
+    margin: 5px 5px 0 0px;
+}
+#search{
+    width: 50%;
+    float: left;
+}
+#loginblock{
+    width: 30%;
+    float: right;
+    text-align: right;
+    margin: 5px 5px 0 0px;
+    color: white;
+
+}
+#search input{
+    padding: 0 16px;
+    border-radius: 2px 0 0 2px;
+    border: 0 none;
+    outline: 0 none;
+    font-size: 14px;
+    height: 24px;
+    width: 85%;
+    margin: 8px;
+    font-size: 11px;
+}
+.search_icon{
+    float: right;
+    position: relative;
+    right: 45px;
+    top: 10px;
+}
+.search_icon i{
+    color:#2874f0;
+    font: size 10px; 
+
+}
+
+
+
